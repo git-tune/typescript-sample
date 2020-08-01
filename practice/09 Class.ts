@@ -1,15 +1,6 @@
 class User {
-  constructor(protected name: string, private age: number) {}
-
-  getName(): string {
-    return this.name;
-  }
+  constructor(public name: string, public age: number) {}
 }
-
-const user = new User('yamada', 42);
-
-console.log(user);
-console.log(user.getName());
 
 class SuperUser extends User {
   constructor(name: string, age: number) {
