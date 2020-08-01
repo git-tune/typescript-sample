@@ -13,7 +13,6 @@ sum(1, 2);
 
 const showError = (msg: string): never => {
   throw new Error(msg);
-  return;
 };
 
 // showError('エラーが発生しました');
